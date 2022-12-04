@@ -7,15 +7,6 @@ function readInput() {
   return lines;
 }
 
-// const testInput = [
-//   'vJrwpWtwJgWrhcsFMMfFFhFp',
-//   'jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL',
-//   'PmmdzqPrVvPwwTWBwg',
-//   'wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn',
-//   'ttgJtRGJQctTZtZT',
-//   'CrZsJsPPZsGzwwsLwLmpwMDw',
-// ];
-
 function problem1() {
   const input = readInput();
   let total = 0;

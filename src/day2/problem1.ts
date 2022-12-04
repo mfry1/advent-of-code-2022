@@ -86,13 +86,4 @@ function problem1() {
   console.log(`Problem #1 Score: ${score}`);
 }
 
-function problem2() {
-  const input = readInput();
-
-  const score = scoreAllRounds(input);
-
-  console.log(`Problem #1 Score: ${score}`);
-}
-
 problem1();
-problem2();

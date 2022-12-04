@@ -96,7 +96,7 @@ function problem2() {
 
   const score = scoreAllRounds(input);
 
-  console.log(`Problem #1 Score: ${score}`);
+  console.log(`Problem #2 Score: ${score}`);
 }
 
 problem2();

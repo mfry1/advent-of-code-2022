@@ -15,16 +15,6 @@ async function problem() {
   const tailPosition = { x: 0, y: 0 };
 
   const tailHistory = [{ ...tailPosition }];
-  const newDirections = [...directions];
-
-  let count = 0;
-
-  // for (let i = directions.length - 1; i >= 0; i -= 1) {
-  //   const
-  //   console.log(directions[i][1]);
-
-  //   if ()
-  // }
 
   directions.forEach(([direction, amount]) => {
     for (let x = 0; x < amount; x += 1) {
